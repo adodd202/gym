@@ -11,6 +11,7 @@ LEFT = 0
 DOWN = 1
 RIGHT = 2
 UP = 3
+print("Andrew's GYM v2 :)")
 
 MAPS = {
     "4x4": [
@@ -32,7 +33,7 @@ MAPS = {
 }
 
 
-def generate_random_map(size=8, p=0.8):
+def generate_random_map(size=50, p=0.90):
     """Generates a random valid map (one that has a path from start to goal)
     :param size: size of each side of the grid
     :param p: probability that a tile is frozen
